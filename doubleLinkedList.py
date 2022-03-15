@@ -8,7 +8,8 @@ class doubleLikedList:
     def __init__(self):
         self.head = None
 
-    def insert_at_beginning(self,data):        node = Node(data,self.head,None)
+    def insert_at_beginning(self,data):
+        node = Node(data,self.head,None)
         self.head = node
 
     def insert_at_end(self,data):
